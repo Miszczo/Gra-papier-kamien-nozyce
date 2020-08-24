@@ -31,6 +31,7 @@ body {
           border-radius: 5px;
           font-weight: bold;
           font-size: 20px;
+          border: 1px solid #4CAF50;
         }
       }
       .messages {
@@ -45,4 +46,11 @@ body {
       }
     }
   }
+}
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button:focus {
+  outline: none;
 }
