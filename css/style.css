@@ -1,0 +1,65 @@
+body {
+  background-color: #E6FAD2;
+}
+
+body .wrapper {
+  height: 400px;
+  width: 600px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: auto;
+  border: 2px solid #1A4B00;
+  box-shadow: 5px 5px #143701;
+  background-color: #4AAB6C;
+}
+
+body .wrapper .header {
+  margin: 30px auto 10px;
+}
+
+body .wrapper .header .underheader {
+  font-size: 19px;
+}
+
+body .wrapper .container {
+  margin: 10px;
+  width: 500px;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+body .wrapper .container .buttons {
+  margin-bottom: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+body .wrapper .container .buttons .button {
+  margin: 0 10px 0;
+  padding: 5px;
+  background-color: #E0CF00;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body .wrapper .container .messages {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  width: auto;
+  background-color: #E6FAD2;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 20px;
+  word-wrap: normal;
+}
+/*# sourceMappingURL=style.css.map */
