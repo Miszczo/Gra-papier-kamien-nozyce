@@ -1,4 +1,4 @@
-var argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
+let buttonTest, buttonRock, buttonPaper, buttonScissors
 buttonTest = document.getElementById('button-test');
 buttonRock = document.getElementById('button-rock');
 buttonPaper = document.getElementById('button-paper');
@@ -31,7 +31,7 @@ function displayResult(argPlayerMove, argComputerMove) {
   } else if (argPlayerMove == 'kamień' && argComputerMove == 'nożyce') {
     printMessage('Wygrywasz! ');
   } else if (argPlayerMove == 'nożyce' && argComputerMove == 'papier') {
-    printMessage('Wygrywasz! ');y
+    printMessage('Wygrywasz! ');
   } else if (argPlayerMove == argComputerMove) {
     printMessage('Remis! ');
   } else {
