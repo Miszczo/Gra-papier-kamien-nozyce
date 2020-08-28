@@ -1,4 +1,3 @@
-let buttonTest, buttonRock, buttonPaper, buttonScissors
 buttonTest = document.getElementById('button-test');
 buttonRock = document.getElementById('button-rock');
 buttonPaper = document.getElementById('button-paper');
@@ -10,9 +9,7 @@ function buttonClicked(argButtonName) {
   let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
 
-/**
- * Describe this function...
- */
+
 function getMoveName(argMoveId) {
   console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
   if (argMoveId == 1) {
